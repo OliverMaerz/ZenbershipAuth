@@ -29,7 +29,7 @@
  * @link       https://olivermaerz.com/single-sign-on-use-zenbership-as-a-saml-idp/
  *
  */
-class sspmod_wordpressauth_Auth_Source_WordpressAuth extends sspmod_core_Auth_UserPassBase {
+class sspmod_wordpressauth_Auth_Source_ZenbershipAuth extends sspmod_core_Auth_UserPassBase {
 
 
     /* The database DSN */
