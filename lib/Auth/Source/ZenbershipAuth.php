@@ -106,7 +106,7 @@ class sspmod_wordpressauth_Auth_Source_WordpressAuth extends sspmod_core_Auth_Us
 
         /* Check the hashed password against the hash in Zenbership's members table */
         $hashed_submitted_password = sha1(md5(md5($password) . md5($row['salt']) . md5($this->zenbership_salt)));
-        if ($hashed_submitted_password != $row['password'])){
+        if ($hashed_submitted_password != $row['password']){
             /* Invalid password. */
             throw new SimpleSAML_Error_Error('WRONGUSERPASS');
         }
