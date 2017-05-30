@@ -26,12 +26,12 @@ Edit the configuration file for authentication sources `simplesaml/config/authso
     'members_table' => 'ppSD_members',
     'members_data_table' => 'ppSD_member_data',
     // Get the salt from the file <zenbership-home>/admin/sd-system/salt.php
-    'zenbership_salt'  => '591e65dc356a9714ea912b39a096d28fac391badbe28185c6885e048014a79eec4f65a0a699d8',
+    'zenbership_salt'  => '<zenbership salt>',
     'zenbershipauth:ZenbershipAuth'
 ),
  
 ```
-Replace the placeholders with your MySQL host, username, password and database name etc. 
+Replace the placeholders with your MySQL host, username, password, database name, zenbership salt etc. 
 
 ### 5 Set Authentication Source in Metadata File
 
